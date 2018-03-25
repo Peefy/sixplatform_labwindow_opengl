@@ -1,0 +1,9 @@
+simple.obj
+cvi.lib
+cvistart.lib
+mydll.lib
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

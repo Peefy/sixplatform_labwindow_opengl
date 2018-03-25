@@ -1,0 +1,46 @@
+-nologo
+-out:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\mydll.dll
+-implib:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\mydll.lib
+-dependenciesMapFile:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\dependencies.lnk.in
+-arch:x86
+-timestamp
+-debug:3
+-res:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\resources.res
+-entry:_CVIDllMainStartupCodeForDebugging@12
+-base:0x400000
+-linked:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\linkersummary.txt
+-dlldeps:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\dlldependencies.txt
+-licensing:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\linkerlicensing.txt
+-browsedeps:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\moduledependencies.txt
+-stackreserve:131072
+-stackcommit:4096
+-in:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\mydll.obj
+-in:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\openGL_helper.obj
+-more:f:\labwindowscvi2015\bin\msvc\cvistart.lib
+-more:f:\labwindowscvi2015\bin\msvc\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2015\bin\msvc\analysis.lib
+-more:f:\LabWindowsCVI2015\toolslib\custctrl\msvc\animate.obj
+-more:f:\LabWindowsCVI2015\toolslib\custctrl\custsupp\msvc\ckcviogl.obj
+-more:f:\LabWindowsCVI2015\Bin\msvc\cviauto.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvidotnet.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvinetstreams.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvinetv.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvintwrk.lib
+-more:f:\LabWindowsCVI2015\toolslib\custctrl\msvc\cviogl.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\glaux.lib
+-more:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\glu32.lib
+-more:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\glut.lib
+-more:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\glut32.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\gpib.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\nivxi.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\omp.lib
+-more:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\opengl32.lib
+-more:f:\LabWindowsCVI2015\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:f:\LabWindowsCVI2015\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

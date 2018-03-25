@@ -1,0 +1,1 @@
+-force-include-file "mydll.c";"f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\mydll.c" -force-include-file "mydll.h";"f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\mydll.h" -force-include-file "openGL_helper.c";"f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\openGL_helper.c" -force-include-file "openGL_helper.h";"f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\openGL_helper.h" 

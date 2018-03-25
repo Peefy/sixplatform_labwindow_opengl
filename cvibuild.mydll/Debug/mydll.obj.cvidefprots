@@ -1,0 +1,52 @@
+[OpenglCtrlInit]
+Class="Function"
+Prototype="void OpenglCtrlInit();"
+
+[OpenglCtrlDispose]
+Class="Function"
+Prototype="void OpenglCtrlDispose();"
+
+[OGLCallback]
+Class="Function"
+Prototype="int OGLCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DllMain]
+Class="Function"
+Prototype="int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+
+[DllEntryPoint]
+Class="Function"
+Prototype="int DllEntryPoint(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+
+[RunDllUI]
+Class="Function"
+Prototype="void RunDllUI() __declspec(dllexport);"
+
+[CloseUICallback]
+Class="Function"
+Prototype="int CloseUICallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[panelCB]
+Class="Function"
+Prototype="int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[MyDLLStdcallFunction]
+Class="Function"
+Prototype="long MyDLLStdcallFunction(char *buffer) __declspec(dllexport);"
+
+[MyDLLCdeclFunction]
+Class="Function"
+Prototype="long MyDLLCdeclFunction(char *buffer) __declspec(dllexport);"
+
+[timer]
+Class="Function"
+Prototype="int timer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnclickBtOK]
+Class="Function"
+Prototype="int OnclickBtOK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OnclickBtEsc]
+Class="Function"
+Prototype="int OnclickBtEsc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

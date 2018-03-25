@@ -1,0 +1,5 @@
+-inrc f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\resources.in.rc
+-outrc f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\resources.out.rc
+-indefprot f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\mydll.obj.cvidefprots
+-indefprot f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.mydll\Debug\openGL_helper.obj.cvidefprots
+-dllName mydll.dll

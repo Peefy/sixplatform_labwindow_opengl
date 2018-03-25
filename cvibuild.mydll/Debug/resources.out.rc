@@ -1,0 +1,108 @@
+#include "F:\LabWindowsCVI2015\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
+
+
+2 24 "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\manifest.xml"
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  ""
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x1L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Wicrosoft\0"
+            VALUE "FileDescription", "mydll (Debug x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "mydll\0"
+            VALUE "LegalCopyright", "Copyright © Wicrosoft 2017\0"
+            VALUE "OriginalFilename", "mydll.dll\0"
+            VALUE "ProductName", "Wicrosoft mydll\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END
+
+CVIDLLexports CVIDLLprototypes
+{
+   "int CloseUICallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int DllEntryPoint(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+   "\n",
+   "int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+   "\n",
+   "void DrawBall(float radius, float red, float blue, float green);"
+   "\n",
+   "void DrawBanFormThreePoints(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3);"
+   "\n",
+   "void DrawCubeWithColor(float length, float r, float b, float g);"
+   "\n",
+   "void DrawCylinder(float baseRadius, float height);"
+   "\n",
+   "void DrawCylinderWithTwoColors(float baseRadius, float heightBlue, float heightWhite);"
+   "\n",
+   "void DrawCylinderWithTwoPoints(float x1, float y1, float z1, float x2, float y2, float z2, float blueHeight, float baseRadius, int isJudgeAngleY);"
+   "\n",
+   "void DrawSolidBoxWithColor(float a, float b, float c, float red, float blue, float green);"
+   "\n",
+   "void GetCenterPointFromThreePoints(float x1, float y1, float z1, float x2, float y2, float z2, float x3, float y3, float z3, float *center_x, float *center_y, float *center_z);"
+   "\n",
+   "long MyDLLCdeclFunction(char *buffer) __declspec(dllexport);"
+   "\n",
+   "long MyDLLStdcallFunction(char *buffer) __declspec(dllexport);"
+   "\n",
+   "void MyFrameDisplayWithRotate();"
+   "\n",
+   "int OGLCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int OnclickBtEsc(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int OnclickBtOK(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int OpenGLControlInit(int panelHandle, int pictureBox);"
+   "\n",
+   "void OpenGL_SetPitch(double angle);"
+   "\n",
+   "void OpenGL_SetRoll(double angle);"
+   "\n",
+   "void OpenGL_SetYaw(double angle);"
+   "\n",
+   "void OpenglCtrlDispose();"
+   "\n",
+   "void OpenglCtrlInit();"
+   "\n",
+   "void PointRotatef(float angle, float x, float y, float z, float old_x, float old_y, float old_z, float *new_x, float *new_y, float *new_z);"
+   "\n",
+   "void PointRotatef_X(float angle, float old_x, float old_y, float old_z, float *new_x, float *new_y, float *new_z);"
+   "\n",
+   "void PointRotatef_Y(float angle, float old_x, float old_y, float old_z, float *new_x, float *new_y, float *new_z);"
+   "\n",
+   "void PointRotatef_Z(float angle, float old_x, float old_y, float old_z, float *new_x, float *new_y, float *new_z);"
+   "\n",
+   "void PointTrans_XYZ(float dis_x, float dis_y, float dis_z, float old_x, float old_y, float old_z, float *new_x, float *new_y, float *new_z);"
+   "\n",
+   "void RenderImage(int fastFlag);"
+   "\n",
+   "void RunDllUI() __declspec(dllexport);"
+   "\n",
+   "int panelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "int timer(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+   "\n",
+   "\0"
+}

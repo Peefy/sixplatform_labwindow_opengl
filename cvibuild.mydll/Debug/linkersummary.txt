@@ -1,0 +1,14 @@
+mydll.obj
+openGL_helper.obj
+cvi.lib
+ckcviogl.obj
+cvistart.lib
+cviogl.lib
+glu32.lib
+opengl32.lib
+user32.lib
+kernel32.lib
+CVI_UP_Product_Dependencies_Private_Object
+EXE Symbol Module
+Exports Module
+Resource Module

@@ -1,0 +1,58 @@
+CCFLAGS = -g ;
+HDRS = 	"f:\\labwindowscvi2015\\toolslib\\activex\\word"
+	"f:\\labwindowscvi2015\\toolslib\\activex\\excel"
+	"f:\\labwindowscvi2015\\toolslib\\custctrl"
+	"f:\\labwindowscvi2015\\toolslib\\custctrl\\custsupp"
+	"f:\\labwindowscvi2015\\toolslib\\cvirtsup"
+	"f:\\labwindowscvi2015\\toolslib\\datasock"
+	"f:\\labwindowscvi2015\\toolslib\\daqUtil"
+	"f:\\labwindowscvi2015\\toolslib\\printing"
+	"f:\\labwindowscvi2015\\toolslib\\toolbox"
+	"f:\\labwindowscvi2015\\toolslib\\reportgen"
+	"f:\\labwindowscvi2015\\toolslib\\localui"
+	"f:\\labwindowscvi2015\\instr"
+	"F:\\LabWindowsCVI2015\\Shared\\CVI\\toolslib\\custctrl"
+	"F:\\LabWindowsCVI2015\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"F:\\LabWindowsCVI2015\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\instr"
+	"f:\\labwindowscvi2015\\include"
+	"F:\\LabWindowsCVI2015\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"f:\\labwindowscvi2015\\include\\ansi"
+	"f:\\labwindowscvi2015\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"F:\\LabWindowsCVI2015\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"f:\\LabWindowsCVI2015\\Bin"
+	"c:\\ProgramData\\National Instruments\\CVI2015\\bin"
+	"f:\\LabWindowsCVI2015\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "mydll.c" = "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI" ;
+LOCATE on "mydll.h" = "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI" ;
+LOCATE on "openGL_helper.c" = "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI" ;
+LOCATE on "openGL_helper.h" = "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI" ;
+Object "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.obj" : "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\mydll.c" ;
+FILENUM on "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.obj" = 1 ;
+DEFPROTS on "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.obj" = "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.obj.cvidefprots" ;
+OUTFILE on "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.obj" = "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.obj.out" ;
+PrjObjects += "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.obj" ;
+Object "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\openGL_helper.obj" : "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\openGL_helper.c" ;
+FILENUM on "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\openGL_helper.obj" = 2 ;
+DEFPROTS on "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\openGL_helper.obj" = "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\openGL_helper.obj.cvidefprots" ;
+OUTFILE on "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\openGL_helper.obj" = "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\openGL_helper.obj.out" ;
+PrjObjects += "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\openGL_helper.obj" ;
+PreLinkInputs += "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.in.rc" ;
+PreLinkInputs += $(PrjObjects) $(InstrObjects) ;
+PreLinkOutputs += "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.out.rc" ;
+PreLink $(PreLinkOutputs) : $(PreLinkInputs) ;
+Object "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.res" : "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.out.rc" ;
+Depends "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.res" : $(PreLinkOutputs) ;
+Depends "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.res" "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.out.rc" : $(PrjObjects) $(InstrObjects) ;
+Depends "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.res" : "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\manifest.xml" ;
+MainFromObjects "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.dll" : $(PrjObjects) $(InstrObjects) ;
+Depends "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.dll" : "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\link_options.txt" ;
+Depends "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.dll" : "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\dependencies.lnk.in" ;
+Depends "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.dll" : "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\resources.res" ;
+Depends all : "f:\\LabWindowsCVI2015Pros\\openGL_vc_cvi\\CVI\\cvibuild.mydll\\Debug\\mydll.dll" ;

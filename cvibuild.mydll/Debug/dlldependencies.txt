@@ -1,0 +1,12 @@
+cvi.lib
+cvirte.dll
+cviogl.lib
+cviogl.dll
+glu32.lib
+GLU32.dll
+opengl32.lib
+OPENGL32.dll
+user32.lib
+USER32.dll
+kernel32.lib
+KERNEL32.dll

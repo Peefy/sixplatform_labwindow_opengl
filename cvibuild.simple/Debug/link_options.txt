@@ -1,0 +1,40 @@
+-nologo
+-out:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.simple\Debug\SIMPLE.exe
+-arch:x86
+-timestamp
+-debug:3
+-loadextmod
+-res:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.simple\Debug\resources.res
+-entry:_CVIWinMainStartupCodeForDebugging@0
+-base:0x400000
+-linked:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.simple\Debug\linkersummary.txt
+-dlldeps:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.simple\Debug\dlldependencies.txt
+-licensing:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.simple\Debug\linkerlicensing.txt
+-browsedeps:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.simple\Debug\moduledependencies.txt
+-stackreserve:131072
+-stackcommit:4096
+-in:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\cvibuild.simple\Debug\simple.obj
+-more:f:\labwindowscvi2015\bin\msvc\cvistart.lib
+-more:f:\labwindowscvi2015\bin\msvc\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2015\bin\msvc\analysis.lib
+-more:f:\LabWindowsCVI2015\toolslib\custctrl\msvc\animate.obj
+-more:f:\LabWindowsCVI2015\toolslib\custctrl\custsupp\msvc\ckcviogl.obj
+-more:f:\LabWindowsCVI2015\Bin\msvc\cviauto.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvidotnet.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvinetstreams.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvinetv.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvintwrk.lib
+-more:f:\LabWindowsCVI2015\toolslib\custctrl\msvc\cviogl.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\gpib.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:f:\LabWindowsCVI2015Pros\openGL_vc_cvi\CVI\msvc\mydll.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\nivxi.lib
+-more:f:\LabWindowsCVI2015\Bin\msvc\omp.lib
+-more:f:\LabWindowsCVI2015\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:f:\LabWindowsCVI2015\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib
